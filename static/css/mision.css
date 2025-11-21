@@ -1,0 +1,245 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .navbar {
+            background-color: #027333;
+            display: flex;
+            align-items: center;
+            padding: 8px 5%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #D9A404;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .logo {
+            width: 70px;
+            height: 70px;
+            background-image: url('umb.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right: 15px;
+        }
+        
+        .university-name {
+            color: white;
+        }
+        
+        .university-name h1 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        .university-name p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        
+        .nav-links {
+            display: flex;
+            margin-left: auto;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: all 0.3s;
+            position: relative;
+            padding: 8px 0;
+            font-size: 15px;
+        }
+        
+        .nav-links a:hover {
+            color: #D9A404;
+        }
+        
+        .nav-links a.active {
+            color: #D9A404;
+            font-weight: 600;
+        }
+
+        .mission-header {
+            background: linear-gradient(135deg, #027333 0%, #025a29 100%);
+            color: white;
+            padding: 60px 5%;
+            text-align: center;
+        }
+        
+        .mission-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .mission-header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .mission-content {
+            padding: 60px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .info-section {
+            margin-bottom: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .info-section h2 {
+            color: #027333;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #D9A404;
+            padding-bottom: 10px;
+        }
+        
+        .info-section p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+        
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin: 25px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #D9A404;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .value-card {
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            padding: 20px;
+            border-top: 4px solid #90BF2A;
+        }
+        
+        .value-card h3 {
+            color: #027333;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .value-card p {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background-color: #D90452;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-bottom: 30px;
+        }
+        
+        .back-button:hover {
+            background-color: #b80345;
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            background-color: #0D0D0D;
+            color: white;
+            padding: 40px 5% 20px;
+            margin-top: 50px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column h3 {
+            color: #D9A404;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-column p, .footer-column a {
+            color: #ccc;
+            margin-bottom: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                padding: 10px 5%;
+            }
+            
+            .logo-container {
+                margin-right: 0;
+                margin-bottom: 10px;
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+            }
+            
+            .nav-links {
+                margin-left: 0;
+                width: 100%;
+                justify-content: space-around;
+            }
+            
+            .nav-links a {
+                margin-left: 0;
+                font-size: 14px;
+            }
+            
+            .mission-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+        }

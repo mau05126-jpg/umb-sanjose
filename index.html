@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UES San José del Rincón - Universidad Mexiquense del Bicentenario</title>
+    <meta name="description" content="Universidad Mexiquense del Bicentenario - UES San José del Rincón. Ofrecemos Ingeniería en Sistemas, Contaduría e Innovación Agrícola Sustentable.">
+    <meta name="keywords" content="universidad, educación, carreras, ingeniería, contaduría, agrícola, México, San José del Rincón">
+    <meta name="author" content="Mauricio Sánchez García">
+    <link rel="stylesheet" href="static/css/estilos.css">
+    <script src="static/js/funciones.js"></script>
+
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Navegación principal">
+            <div id="inicio" class="logo-container">
+                <div class="logo" role="img" aria-label="Logo Universidad Mexiquense del Bicentenario"></div>
+                <div class="university-name">
+                    <h1>UNIVERSIDAD MEXIQUENSE DEL BICENTENARIO</h1>
+                    <p>Unidad de Estudios Superiores San José del Rincón</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#oferta-academica">Oferta Académica</a>
+                <a href="actividades.html">Actividades</a>
+                <a href="eventos.html">Eventos</a>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Buscar en el sitio..." aria-label="Buscar en el sitio">
+                    <button id="search-btn">🔍</button>
+                    <div class="search-results" id="search-results"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección principal con fondo -->
+        <section class="hero" role="banner">
+            <div class="hero-content">
+                <h2>FORMA PARTE DE NUESTRA COMUNIDAD ESTUDIANTIL</h2>
+                <p>Únete a la Universidad Mexiquense del Bicentenario y construye tu futuro con nosotros</p>
+                <a href="#oferta-academica" class="cta-button">CONOCE NUESTRAS CARRERAS</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: ¿SABÍAS QUE? -->
+        <section class="info-section">
+            <div class="info-container">
+                <div class="info-content">
+                    <h2>¿Sabías que?</h2>
+                    <p style="text-align: justify;">La Universidad Mexiquense del Bicentenario ofrece programas educativos de calidad que combinan teoría y práctica, preparando a nuestros estudiantes para los desafíos del mundo profesional.</p>
+                    <p style="text-align: justify;">Nuestro modelo educativo se centra en el desarrollo integral de los estudiantes, fomentando valores, habilidades técnicas y pensamiento crítico.</p>
+                    <a href="mision-vision.html" class="info-button">DESCUBRE MÁS</a>
+                </div>
+                <div class="info-highlight">
+                    <h3>EDUCACIÓN DE CALIDAD PARA UN FUTURO BRILLANTE</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de información institucional -->
+        <section class="institutional-info">
+            <h2 class="section-title">INFORMACIÓN INSTITUCIONAL</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Coordinación</h3>
+                    <p><strong>Coordinador:</strong> Lcdo. Luis Ramón Vega Ramírez</p>
+                    <p><strong>Clave de Institución:</strong> 15ESU0016J</p>
+                </div>
+                <div class="info-card">
+                    <h3>Dirección</h3>
+                    <p>AVENIDA UNIVERSIDAD SN, COLONIA LAS TINAJAS, 50660 SAN JOSÉ DEL RINCÓN, SAN JOSÉ DEL RINCÓN, ESTADO DE MÉXICO.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Contacto</h3>
+                    <p><strong>Teléfono:</strong> 712 1242234</p>
+                    <p><strong>Correo electrónico:</strong> uessanjosedelrincon@umb.mx</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de carreras -->
+        <section id="oferta-academica" class="careers">
+            <h2 class="section-title">OFERTA ACADÉMICA</h2>
+            <div class="careers-grid">
+                <div class="career-card">
+                    <div class="career-image">
+                        <img src="static/img/sistemass.jpg" alt="Estudiantes de Ingeniería en Sistemas Computacionales trabajando en el laboratorio" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="career-info">
+                        <h3>Ingeniería en Sistemas Computacionales</h3>
+                        <p>Formar profesionales con conocimiento sólido en técnicas de diseño y análisis de sistemas de información, programación, creación de ambientes distribuidos e ingeniería de software.</p>
+                        <a href="sistemas.html" class="career-button">Ver plan de estudios</a>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-image">
+                        <img src="static/img/contaduriaa.jpg" alt="Estudiantes de Contaduría en sesión de aprendizaje" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="career-info">
+                        <h3>Licenciatura en Contaduría</h3>
+                        <p>Formar profesionales que generen, analicen e interpreten información financiera para la toma de decisiones, protegiendo a las organizaciones de riesgos económicos.</p>
+                        <a href="contaduria.html" class="career-button">Ver plan de estudios</a>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-image">
+                        <img src="static/img/agro.jpg" alt="Estudiantes de Ingeniería Agrícola en campo de cultivo" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="career-info">
+                        <h3>Ingeniería en Innovación Agrícola Sustentable</h3>
+                        <p>Formar profesionistas con alto sentido humanista y de servicio para diseñar, instrumentar, optimizar, administrar e innovar sistemas de producción agrícola con enfoque sustentable.</p>
+                        <a href="agricola.html" class="career-button">Ver plan de estudios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Universidad Mexiquense del Bicentenario</h3>
+                <p>Unidad de Estudios Superiores San José del Rincón</p>
+                <p>Comprometidos con la excelencia académica y la formación integral de nuestros estudiantes.</p>
+            </div>
+ 
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <p><strong>Dirección:</strong> AVENIDA UNIVERSIDAD SN, COLONIA LAS TINAJAS, 50660 SAN JOSÉ DEL RINCÓN, ESTADO DE MÉXICO</p>
+                <p><strong>Teléfono:</strong> 712 1242234</p>
+                <p><strong>Email:</strong> uessanjosedelrincon@umb.mx</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/UMBSanJosedelRincon" class="social-icon facebook" aria-label="Facebook" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="white">
+                            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/527123892709?text=Hola,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20universidad" class="social-icon whatsapp" aria-label="WhatsApp" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white">
+                            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon contact-form" aria-label="Formulario de Contacto" id="open-contact-modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="white">
+                            <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/nDwKP2zH5RAb5jZf8" class="social-icon location" aria-label="Ubicación" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="white">
+                            <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Universidad Mexiquense del Bicentenario - UES San José del Rincón. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal del Formulario de Contacto -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="contact-form-section">
+                <h2>Formulario de Contacto</h2>
+                <p>¿Tienes dudas? Contáctanos y te responderemos a la brevedad</p>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="carrera">Carrera de Interés</label>
+                        <select id="carrera" name="carrera">
+                            <option value="">Selecciona una opción</option>
+                            <option value="Ingeniería en Sistemas Computacionales">Ingeniería en Sistemas Computacionales</option>
+                            <option value="Licenciatura en Contaduría">Licenciatura en Contaduría</option>
+                            <option value="Ingeniería en Innovación Agrícola Sustentable">Ingeniería en Innovación Agrícola Sustentable</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submit-btn">Enviar Mensaje</button>
+                    
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
