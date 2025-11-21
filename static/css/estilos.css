@@ -36,7 +36,7 @@
         .logo {
             width: 70px;
             height: 70px;
-            background-image: url('../img/umb.png');
+            background-image: url('https://mau05126-jpg.github.io/umb-sanjose/static/img/umb.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -157,7 +157,7 @@
             height: 100vh;
             background: 
                 linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../img/umb.jpg');
+                url('https://mau05126-jpg.github.io/umb-sanjose/static/img/umb.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
